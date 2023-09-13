@@ -1,0 +1,10 @@
+# Common
+node_modules/
+.vscode/
+
+# Build output
+*.js
+*.d.ts
+*.map
+!index.js
+!index.d.ts

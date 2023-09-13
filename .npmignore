@@ -1,0 +1,11 @@
+# Common
+.vscode/
+
+# Source
+src/
+test/
+scripts/
+tsconfig.json
+
+# Just in case
+.tgz

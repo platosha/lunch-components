@@ -1,0 +1,26 @@
+{
+  "name": "@lunch/components",
+  "version": "0.0.1",
+  "description": "Example Hilla / React component library",
+  "type": "module",
+  "main": "index.js",
+  "module": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf -g \"!(index)@(.js|.d.ts)?(.map)\"",
+    "prepack": "npm run clean",
+    "prepare": "npm run build"
+  },
+  "author": "Vaadin Ltd",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "rimraf": "^5.0.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@hilla/react-components": "^2.1.0",
+    "@types/react": "^18.0.0",
+    "react": "^18.0.0"
+  }
+}
